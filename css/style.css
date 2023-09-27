@@ -1,0 +1,727 @@
+/*======================================
+  Common css start
+========================================*/
+
+*, *::after , *::before{
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*======================================
+  Common css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+  header-container css strt
+========================================*/
+
+#header-container{
+  width: 96%;
+  height: 560px;
+  margin: 0 auto;
+  clear: both;
+  background-color: #87509c;
+}
+
+.header-area{
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-area .header{
+  width: 30%;
+  float: left;
+}
+
+.header-area .header h2{
+  font-size:60px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  color: white;
+}
+
+.header-area .mini-menu{
+  width: 70%;
+  float: right;
+}
+
+.header-area .mini-menu ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.header-area .mini-menu ul li{
+  display:inline-block;
+  list-style-type: none;
+  margin-right:20px ;
+}
+
+.header-area .mini-menu ul li a{
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin: 0 ;
+  padding: 8px 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.header-area .mini-menu ul li a:hover{
+  font-size: 19px;
+  background-color: #643a79;
+}
+
+.header-caption{
+  width: 100%;
+  margin-top: 200px;
+}
+
+.header-caption p{
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.4em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact button {
+  display: block;
+  width: 280px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #eb7d4b;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black ;
+}
+
+.contact button a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+} 
+
+/*======================================
+  header-container css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  service css strt
+========================================*/
+
+#service{
+  width: 96%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#service .inner-service{
+  background-color: #17c2a4;
+}
+
+#service .inner-service h1{
+  text-align: center;
+  padding-top: 120px;
+  margin-top: 0;
+  font-size: 30px;
+  color: white;
+  position: relative;
+}
+
+#service .inner-service h1::after{
+  position: absolute;
+  width: 90px;
+  height: 4px;
+  background-color: #14a58c;
+  content: "";
+  top: 160px;
+  left: 530px;
+  border-radius: 5px;
+}
+
+#service .inner-service .service-header h3{
+  text-align: center;
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+
+.inner-service .area{
+  margin: 0 60px;
+  overflow: hidden;
+}
+
+.area .service-area{
+  width: 23%;
+  margin: 1%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.area .service-area img{
+  width: 180px;
+  height: 180px;
+  margin-left: 40px;
+}
+
+.area .service-area h2{
+  font-size: 23px;
+  text-align: center;
+  color: white;
+}
+
+.area .service-area p{
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  text-align-last: center;
+}
+
+.area .last-child img{
+  margin-top: 17px;
+  width: 240px;
+  height: 160px;
+  margin-left: 20px;
+}
+
+
+/*======================================
+    service css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+  team css strt
+========================================*/
+
+#team{
+  width: 96%;
+  height: auto;
+  margin: 0 auto;
+  clear: both;
+}
+
+#team .inner-team{
+  background-color: #e7f1f8;
+}
+
+#team .inner-team h1{
+  text-align: center;
+  padding-top: 120px;
+  margin-top: 0;
+  font-size: 30px;
+  color: #38435d;
+  font-weight: bold;
+  position: relative;
+}
+
+#team .inner-team .team-header h1::after{
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 4px;
+  background-color: #14a58c;
+  content: "";
+  top: 160px;
+  left: 525px;
+  border-radius: 5px;
+}
+
+#team .inner-team .team-header h3{
+  text-align: center;
+  font-size: 17px;
+  padding-top: 20px;
+}
+
+.inner-team .team-container{
+  margin: 0 60px;
+  overflow: hidden;
+}
+
+.inner-team .team-container .team-area{
+  width: 23%;
+  margin: 1%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.inner-team .team-container .team-area img{
+  width: 180px;
+  height: 180px;
+  margin-left: 45px;
+  object-fit: cover;
+  display: block;
+  padding-top: 8px;
+  border-radius: 50%;
+  text-align: center;
+  border: 10px solid red;
+  border-top: none;
+  border-left: none;
+}
+
+.inner-team .team-container .team-area h2{
+  font-size: 23px;
+  text-align: center;
+  color: #38435d;
+}
+
+.inner-team .team-container .team-area p{
+  font-size: 17px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-align-last: center;
+}
+
+.inner-team .team-container .team-area ul{
+  text-align: center;
+  margin-left: -50px;
+}
+
+.inner-team .team-container .team-area ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 6px;
+}
+
+.inner-team .team-container .team-area ul li a{
+  display: block;
+  text-decoration: none;
+}
+
+.inner-team .team-container .team-area ul li a .fa-brands{
+  width: 30px;
+  height: 25px;
+  background-color: rgba(169, 56, 56, 0.342);
+  display: block;
+  padding-top: 8px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.inner-team .team-container .team-area ul li a .fa-regular{
+  width: 30px;
+  height: 25px;
+  background-color: rgba(169, 56, 56, 0.342);
+  display: block;
+  padding-top: 8px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+
+/*======================================
+    team css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+  portfolio css strt
+========================================*/
+
+
+#portfolio{
+  width: 96%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#portfolio .inner-portfolio{
+  background-color: #ffdd99;
+}
+
+.inner-portfolio h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  padding-top: 80px;
+  position: relative;
+}
+
+.inner-portfolio h1::after{
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: #14a58c;
+  top: 120px;
+  left: 525px;
+  border-radius: 10px;
+}
+
+.inner-portfolio p{
+  text-align: center;
+  display: block;
+  color: rgb(46, 26, 26);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.inner-portfolio ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom:15px;
+}
+
+.inner-portfolio ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.inner-portfolio ul li a{
+  text-decoration: none;
+  padding: 11px 15px;
+  background-color: #ebc985;
+  color: black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.inner-portfolio ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+.inner-portfolio .computer-portfolio{
+  overflow: hidden;
+}
+
+.computer-portfolio .computer{
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.computer-portfolio .computer img{
+  width: 300px;
+  height: 200px;
+  margin-left: 147px;
+  margin-top: 40px;
+}
+
+.computer-portfolio .computer p{
+  text-align: center;
+}
+
+/*======================================
+     portfolio css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+   about css strt
+========================================*/
+
+#about{
+  width: 96%;
+  clear: both;
+  margin: 0 auto;
+} 
+
+#about .inner-about{
+  background-color: #d74680;
+}
+
+#about .inner-about h1{
+  margin: 0;
+  padding-top: 70px;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#about .inner-about h1::after{
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: #14a58c;
+  top: 100px;
+  left: 525px;
+  border-radius: 10px;
+}
+
+
+#about .inner-about p{
+  font-size: 17px;
+  color: darkslategray;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.inner-about .about-contaiter{
+  overflow: hidden;
+}
+
+.about-contaiter .main-about{
+  width: 44%;
+  height: 375px;
+  margin: 3%;
+  float: left;
+  overflow: hidden;
+}
+
+.about-contaiter .main-about img{
+  width: 30%;
+  object-fit: cover;
+  margin: 0;
+  object-fit: cover;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.about-contaiter .main-about p{
+  width: 65%;
+  float: right;
+  margin: 0;
+  padding: 0 ;
+  font-style: italic;
+}
+
+.about-contaiter .main-about h2{
+  color: darkkhaki;
+  font-size: x-large;
+}
+
+
+/*======================================
+   about css end
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+   footer css start
+========================================*/
+
+#footer{
+  width: 96%;
+  margin: 0 auto;
+  clear: both;
+  background-color: #3c5499;
+}
+
+#footer .footer-header h1{
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  padding-top: 60px;
+  text-align: center;
+  position: relative;
+}
+
+#footer .footer-header h1::after{
+  position: absolute;
+  content: "";
+  top: 100px;
+  left: 520px;
+  width: 90px;
+  height: 4px;
+  background-color: rgb(2, 2, 64);
+  border-radius: 5px;
+}  
+
+#footer .footer-header p{
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+#footer .footer-form{
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.footer-form .left-input{
+  width: 25%;
+  height: 30px;
+  float: left;
+}
+
+.footer-form .left-input input{
+  width:300px;
+  height: 50px; 
+  background-color: #273a71;
+  color: white;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.footer-form .left-input ::placeholder{
+  color: white;
+  font-size: 17px;
+  padding-left:17px;
+}
+
+.footer-form .right-input{
+  width: 25%;
+  height: 30px;
+  float: right;
+}
+
+.footer-form .right-input input{
+  width:300px;
+  height: 50px; 
+  background-color: #273a71;
+  color: white;
+  border-radius: 10px;
+  margin-left: -150px;
+}
+
+.footer-form .right-input ::placeholder{
+  color: white;
+  font-size: 17px;
+  padding-left:17px;
+}
+
+.footer-form .text{
+  width: 100%;
+}
+
+.footer-form .text textarea{
+  background-color: #273a71;
+  width: 820px;
+  height: 100px;
+  padding-top: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.footer-form .text ::placeholder{
+  color: white;
+  font-size: 17px;
+  padding-left:17px;
+}
+
+
+#footer .massage{
+  text-align: center;
+}
+
+#footer .massage button{
+  width: 180px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom:60px;
+  border-radius: 10px; 
+  background-color: #30bae7;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+#footer .massage button:hover{
+  font-size: 18px;
+}
+
+
+/*======================================
+   footer css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+   footer-menu css start
+========================================*/
+
+#footer-menu{
+  width: 96%;
+  margin: 0 auto;
+  clear: both;
+  background-color: #344b8e;
+}
+
+#footer-menu .menubar ul{
+  margin-top: 0;
+  text-align: center;
+}
+
+#footer-menu .menubar ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+#footer-menu .menubar ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 35px 40px;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+#footer-menu .menubar ul li a:hover{
+  color: #319ccf;
+}
+
+
+/*======================================
+   footer-menu css end
+========================================*/

@@ -1,0 +1,263 @@
+/*======================================
+   Tablet layout css start
+========================================*/
+@media only screen and (min-width:200px) and (max-width:991px){
+
+  .header-area .mini-menu{
+  margin-top: 53px;
+  }  
+
+  #service .inner-service h1::after{
+    top: 160px;
+    left: 290px;
+  }
+
+  .inner-service .area{
+    margin: 0 ;
+    overflow: hidden;
+  }
+
+  .area .service-area img{
+    margin-left: 10px;
+  }
+
+  .area .last-child img{
+    margin-left: 3px;
+  }
+
+  #team .inner-team .team-header h1::after{
+    top: 160px;
+    left: 290px;
+  }
+
+  .inner-team .team-container .team-area img{
+    margin-left: 0;
+  }
+  
+  .inner-team .team-container .team-area ul{
+    padding-left: 34px;
+  }
+
+  .inner-portfolio h1::after{
+    top: 120px;
+    left: 290px;
+  }
+  
+  .computer-portfolio .computer img{
+    margin-left: 30px;
+  }
+
+  #about .inner-about h1::after{
+    top: 100px;
+    left: 290px;
+  }
+
+  .about-contaiter .main-about h2{
+    padding-top: 81px;
+  }
+
+  #footer .footer-header h1::after{
+    left: 290px;
+  } 
+
+  #footer .footer-form{
+    width: 75%;
+  }
+
+  .footer-form .left-input{
+    float: left;
+  }
+
+  .footer-form .left-input input{
+    width: 250px;
+    margin-left: 0;
+  }
+
+  .footer-form .right-input input{
+    margin-left: -130px;
+    width: 250px;
+  }
+
+  .footer-form .text textarea{
+    width: 540px;
+  }
+
+  #footer-menu .menubar ul li a{
+    padding: 30px 20px;
+  }
+
+}
+/*======================================
+   Tablet layout css end
+========================================*/
+
+
+
+
+
+/*======================================
+   Mobile layout css start
+========================================*/
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+  .header-area .header{
+    width: 100%;
+  }
+
+  .header-area .mini-menu{
+    width: 100%;
+  }
+
+  .header-area .mini-menu ul{
+    margin-right: 0px;
+  }
+
+  .header-area .mini-menu ul li{
+    margin-right:0;
+  }
+  
+
+  .header-area .mini-menu ul li a{
+    padding: 8px 10px;
+  }
+
+  .header-caption p{
+    font-size: 30px;
+  }
+
+  .contact button {
+    width: 240px;
+    height: 50px;
+  }
+
+
+  #service .inner-service h1{
+    padding-top: 90px;
+  }
+
+  #service .inner-service h1::after{
+    top: 130px;
+    left: 130px;
+  }
+
+  .area .service-area{
+    width: 97%;
+    margin: 1%;
+  }
+
+  .area .service-area img{
+    margin-left: 98px;
+  }
+
+  .area .last-child img{
+    margin-left: 78px;
+  }
+
+
+  #team .inner-team .team-header h1::after{
+    top: 180px;
+    left: 140px;
+  }
+  
+  .inner-team .team-container .team-area{
+    width: 97%;
+    margin: 1%;
+  }
+
+  .inner-team .team-container .team-area img{
+    margin-left: 40px;
+  }
+
+  .inner-portfolio h1::after{
+    top: 120px;
+    left: 135px;
+  }
+
+  .computer-portfolio .computer{
+    width: 97%;
+    margin: 1%;
+  }
+
+  #about .inner-about h1::after{
+    width: 200px;
+    top: 130px;
+    left: 90px;
+  }
+
+  #about .inner-about p{
+    margin-top: 30px;
+  }
+  
+  .about-contaiter .main-about{
+    width: 93%;
+    margin: 3%;
+  }
+
+  #footer .footer-header h1::after{
+    top: 100px;
+    left: 120px;
+    width: 90px;
+  }  
+  
+  .footer-form .left-input{
+    width: 100%;
+  }
+
+  .footer-form .left-input input{
+    width:300px;
+    height: 50px; 
+  }
+  
+
+  .footer-form .right-input{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .footer-form .right-input input{
+    width:300px;
+    height: 50px; 
+    margin-left:0px;
+  }
+  
+  .footer-form .text textarea{
+    width: 300px;
+  }
+
+  #footer-menu .menubar ul{
+  padding-left: 0;
+  }
+
+  #footer-menu .menubar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px 10px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*======================================
+   Mobile layout css end
+========================================*/
